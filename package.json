@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "mochawesome": "^6.1.1"
+  }
+}
