@@ -6,7 +6,7 @@ context('Actions', () => {
   
     it('Verify Search in Automation Practice', () => {
       cy
-      .get('#search_query_top').screenshot()
+      .get('#search_query_top')
       .type('shirt')
 
       cy.get('button[name="submit_search"]').click()
