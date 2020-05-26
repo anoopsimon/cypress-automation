@@ -1,5 +1,6 @@
 {
   "baseUrl": "http://automationpractice.com/index.php",
+  "screenshotsFolder":"mochawesome-report/screenshots",
   "videoCompression": false,
   "reporter": "cypress-multi-reporters",
     "reporterOptions": {
