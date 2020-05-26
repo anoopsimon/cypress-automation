@@ -1,7 +1,7 @@
 
 context('Actions', () => {
     beforeEach(() => {
-      cy.visit('http://automationpractice.com/index.php')
+      cy.visit('/')
     })  
   
     it('Verify Search in Automation Practice', () => {
