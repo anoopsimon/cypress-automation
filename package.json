@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "cy:run": "cypress run",
-    "report:copyScreenshots": "cp -r cypress/screenshots cypress/results/html/screenshots"
+    "cy:run": "cypress run --reporter mochawesome --browser chrome"
+    
   },
   "dependencies": {},
   "devDependencies": {

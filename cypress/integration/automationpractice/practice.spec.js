@@ -10,7 +10,7 @@ context('Actions', () => {
       .type('shirt')
 
       cy.get('button[name="submit_search"]').click()
-      cy.get('.product-name').should('contain', 'Faded Short Sleeve T-shirtss')
+      cy.get('.product-name').should('contain', 'Faded Short Sleeve T-shirts')
 
     })
 
@@ -20,7 +20,7 @@ context('Actions', () => {
       .type('shirt')
 
       cy.get('button[name="submit_search"]').click()
-      cy.get('.product-name').should('contain', 'Faded Short Sleeve T-shirtss')
+      cy.get('.product-name').should('contain', 'Faded Short Sleeve T-shirts')
     })
   
     it('Verify Login to APP', () => {
