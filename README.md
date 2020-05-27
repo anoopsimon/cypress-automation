@@ -6,9 +6,9 @@ A simple Javascript project to demonstrate power of Cypress
 * Configuration Driven Tests - Using cypress.json
 * Test cases to demonstrate browser interactions using cypress, assertions etc.
 
- Mocha Awesome Report - Passed
+ **Mochawesome Report - Passed**
 ![Recordit GIF](docs/mochawesome_passed.gif)
 
 
- Mocha Awesome Report - Failed With Screenshots
+ **Mochawesome Report - Failed With Screenshots**
 ![Recordit GIF](docs/mochawesome_passed.gif)
