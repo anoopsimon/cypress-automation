@@ -7,7 +7,8 @@ A simple Javascript project to demonstrate power of Cypress
 * Test cases to demonstrate browser interactions using cypress, assertions etc.
 
  Mocha Awesome Report - Passed
-![](docs\mochawesome_passed.gif)
+![Recordit GIF](docs/mochawesome_passed.gif)
+
 
  Mocha Awesome Report - Failed With Screenshots
- ![](docs\mochawesome_passed.gif)
+![Recordit GIF](docs/mochawesome_passed.gif)
