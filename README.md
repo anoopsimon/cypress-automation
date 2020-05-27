@@ -2,7 +2,7 @@
 
 A simple Javascript project to demonstrate power of Cypress
 
-![](https://github.com/automationio/cypressAutomation/workflows/workflow/badge.svg) 
+![](https://github.com/automationio/cypressAutomation/workflows/endtoendtest/badge.svg) 
 
 
 * HTML Report with screenshots - Using mochawesome
