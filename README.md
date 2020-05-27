@@ -2,7 +2,8 @@
 
 A simple Javascript project to demonstrate power of Cypress
 
-[![Build](https://github.com/4lejandrito/creepyface/workflows/Build/badge.svg)](https://github.com/automationio/cypressAutomation/actions?query=workflow%3A%22End-to-end+tests%22)
+![cypressAutomation](https://github.com/automationio/cypressAutomation/actions?query=workflow%3A%22End-to-end+tests%22/badge.svg) 
+
 
 * HTML Report with screenshots - Using mochawesome
 * Configuration Driven Tests - Using cypress.json
