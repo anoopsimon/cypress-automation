@@ -14,4 +14,4 @@ A simple Javascript project to demonstrate power of Cypress
 
 
  **Mochawesome Report - Failed With Screenshots**
-![Recordit GIF](docs/mochawesome_passed.gif)
+![Recordit GIF](docs/mochawesome_failed.gif)
