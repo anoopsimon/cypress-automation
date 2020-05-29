@@ -1,3 +1,4 @@
+const loginTestData = require('../../fixtures/logindata.json')
 
 context('Automation practice - Login Tests', () => {
     beforeEach(() => {
@@ -5,18 +6,22 @@ context('Automation practice - Login Tests', () => {
     })  
     
     it('Validate that email is mandatory for login', () => {
-      cy.get('.login').click()
-      cy.get('#SubmitLogin').click()
-      cy.get('.alert-danger').should('contain', 'An email address required.')
+      cy.clickElement('.login')
+      cy.clickElement('#SubmitLogin')    
+      cy.assertErrorMessage('An email address required.')
     })
 
     
     it('Validate that password is mandatory for login', () => {
-      const email='testuser@gmail.com'
-      cy.get('.login').click()
-      cy.get('#email').type(email).should('have.value', email)
-      cy.get('#SubmitLogin').click()
-      cy.get('.alert-danger').should('contain', 'Password is required.')
+      
+      const email= loginTestData.email 
+           
+      cy.clickElement('.login')
+      cy.enterText('#email',email)
+      cy.assertTextboxValue('#email',email)
+      cy.clickElement('#SubmitLogin')    
+      cy.assertErrorMessage('Password is required.')
+      
     })
     
     

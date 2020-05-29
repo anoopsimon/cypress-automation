@@ -23,3 +23,27 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('clickLink', (label) =>
+        {cy.get('a').contains(label).click()})
+
+Cypress.Commands.add('clickElement', (locator) => 
+        {cy.get(locator).click()})
+
+Cypress.Commands.add('enterText', (fieldName,text) =>
+        {cy.get(fieldName).type(text)})
+
+Cypress.Commands.add('getErrorMessage', () =>
+        {cy.get('.alert-danger')})
+
+Cypress.Commands.add('getElement', (locator) =>
+        {cy.get(locator)})
+
+Cypress.Commands.add('assertErrorMessage', (expectedError) =>
+        {cy.get('.alert-danger').should('contain', expectedError) })
+
+Cypress.Commands.add('assertTextboxValue', (locator, text) => 
+        {cy.get(locator).should('have.value', text) })
+
+Cypress.Commands.add('assertContainsText', (locator, text) => 
+        {cy.get(locator).should('contain', text) })
