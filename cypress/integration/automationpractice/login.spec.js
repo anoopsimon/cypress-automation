@@ -1,17 +1,9 @@
 
-context('Actions', () => {
+context('Automation practice - Login Tests', () => {
     beforeEach(() => {
       cy.visit('/')
     })  
     
-
-    it('Validate that search returns result', () => {
-      cy.get('#search_query_top').type('shirt')
-
-      cy.get('button[name="submit_search"]').click()
-      cy.get('.product-name').should('contain', 'Faded Short Sleeve T-shirts')
-    })
-  
     it('Validate that email is mandatory for login', () => {
       cy.get('.login').click()
       cy.get('#SubmitLogin').click()
