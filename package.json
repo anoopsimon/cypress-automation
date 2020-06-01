@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "runtests": "cypress run --reporter mochawesome --browser chrome"
-    
+    "test":"cypress run --reporter mochawesome --browser chrome"
   },
   "dependencies": {},
   "devDependencies": {
