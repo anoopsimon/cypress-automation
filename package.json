@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test":"cypress run --reporter mochawesome --browser chrome --parallel --record"
+    "test":"cypress run --reporter mochawesome"
   },
   "dependencies": {},
   "devDependencies": {
