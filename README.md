@@ -9,6 +9,7 @@ A simple Javascript project to demonstrate power of Cypress
 * HTML Report with screenshots - Using mochawesome
 * Configuration Driven Tests - Using cypress.json
 * Test cases to demonstrate browser interactions using cypress, assertions etc.
+* CI with travis , circle ci , github etc.
 
  **Mochawesome Report - Passed**
 ![Recordit GIF](docs/mochawesome_passed.gif)
